@@ -1,0 +1,190 @@
+        .custom-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #75a05d; /* Warna tepi card */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           
+        }
+
+        .custom-card .card-header {
+            background-color: #75a05d; /* Warna latar belakang header */
+            color: white; /* Warna teks header */
+            border-bottom: 1px solid #75a05d; /* Garis bawah header */
+            border-radius: 10px 10px 0 0; /* Sudut bulat di bagian atas */
+            text-align: center; /* Meletakkan teks di tengah */
+        }
+
+        .custom-card .card-body {
+            padding: 20px; /* Ruang dalam tubuh kartu */
+        }
+
+        
+        
+        #result {
+            text-align: center; 
+        }
+
+        .sample-image {
+            max-width: 100%; 
+            max-height: 100%;    
+            display: block;  
+            margin: 0 auto;  
+        }
+
+        #image {
+            display: block; 
+            margin: 0 auto; 
+        }
+
+
+        .image_area {
+            position: relative;
+         }
+    
+        img {
+            display: block;
+            max-width: 100%;
+            max-height:100%;
+        }
+    
+        .preview {
+            overflow: hidden;
+            width: 260px; 
+            height: 260px;
+            margin: 10px;
+            border: 1px solid red;
+        }
+            
+        .modal-lg{
+            max-width: 1000px !important;    
+        }
+    
+        .overlay {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.5);
+            overflow: hidden;
+            height: 0;
+            transition: .5s ease;
+            width: 100%;
+        }
+    
+        .image_area:hover .overlay {
+            height: 50%;
+            cursor: pointer;
+        }
+    
+        .text {
+            color: #333;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        #penjelasanContainer {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            display: none;
+        }
+        
+        .pop-card {
+            background-color: #ffffff !important; /* Ganti warna latar belakang menjadi hitam */
+            border: 1px solid #75a05d;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 9998;
+        }
+        
+        .pop-card .card-header {
+            background-color: #75a05d; /* Warna latar belakang header */
+            color: white; /* Warna teks header */
+            border-bottom: 1px solid #75a05d; /* Garis bawah header */
+            border-radius: 10px 10px 0 0; /* Sudut bulat di bagian atas */
+            text-align: center; /* Meletakkan teks di tengah */
+            position: relative;
+        }
+        
+        .pop-card .card-body {
+            padding: 20px; /* Ruang dalam tubuh kartu */
+        }
+        
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #000; /* Adjust the color as needed */
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        
+
+.card canvas {
+    width: auto; /* Lebar canvas */
+    height: auto; /* Tinggi canvas menyesuaikan */
+    display: block; /* Memastikan elemen canvas menjadi block element */
+}
+
+.card canvas {
+    width: 200px; /* Lebar pie chart */
+    height: 200px; /* Tinggi pie chart */
+}
+
+
+.title_cs {
+    text-align: center;
+    margin-top: 80px; /* Jarak dari bagian atas */
+    margin-bottom: 80px; /* Jarak ke elemen di bawahnya */
+  }
+  
+  .title_cs h1 {
+    color: #037AFB;
+    font-size: 32px;
+  }
+  
+        
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Untuk posisi tengah di halaman, bisa gunakan height: 100vh; pada container jika perlu */
+}
+
+.centered-image {
+    max-width: auto;
+    height: auto;
+    /* Atur properti lainnya sesuai kebutuhan */
+}
+
+/* CSS untuk mengubah warna ikon panah menjadi hijau muda */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: #037AFB;/* Ubah warna sesuai dengan hijau muda yang diinginkan */
+    /* Jika ikon panah berupa SVG atau gambar, kamu perlu menyesuaikan properti ini */
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%);
+}
+
+/* Jika butuh mengubah warna latar belakang dari panah, bisa ditambahkan properti berikut */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent; /* Untuk membuat latar belakang menjadi transparan */
+    color: #037AFB; /* Untuk mengubah warna panah (jika menggunakan teks) */
+}
+
+
+        
+          
